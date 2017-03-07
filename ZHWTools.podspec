@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ZHWTools"
   s.version      = "1.0.0"
-  s.summary      = "A short description of ZHWTools."
+  s.summary      = "ZHWTools is a code tools for ios developer."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  ZHWTools just a tools for code.
+  ZHWTools just a tools for code tools ,it can used in OC.
                    DESC
 
   s.homepage     = "https://github.com/hnxyzhw/ZHWTools"

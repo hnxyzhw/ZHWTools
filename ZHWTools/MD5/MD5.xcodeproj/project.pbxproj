@@ -13,28 +13,9 @@
 		D28B0FF11E6EEE34002697F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28B0FEF1E6EEE34002697F3 /* Main.storyboard */; };
 		D28B0FF31E6EEE34002697F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28B0FF21E6EEE34002697F3 /* Assets.xcassets */; };
 		D28B0FF61E6EEE34002697F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28B0FF41E6EEE34002697F3 /* LaunchScreen.storyboard */; };
-		D28B10011E6EEE34002697F3 /* MD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B10001E6EEE34002697F3 /* MD5Tests.m */; };
-		D28B100C1E6EEE34002697F3 /* MD5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B100B1E6EEE34002697F3 /* MD5UITests.m */; };
 		D28B101C1E6EEECA002697F3 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D28B101B1E6EEECA002697F3 /* NSString+MD5.m */; };
 		D28B101F1E6F09C1002697F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28B101E1E6F09C1002697F3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D28B0FFD1E6EEE34002697F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D28B0FDB1E6EEE34002697F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D28B0FE21E6EEE34002697F3;
-			remoteInfo = MD5;
-		};
-		D28B10081E6EEE34002697F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D28B0FDB1E6EEE34002697F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D28B0FE21E6EEE34002697F3;
-			remoteInfo = MD5;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D28B0FE31E6EEE34002697F3 /* MD5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MD5.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,12 +28,6 @@
 		D28B0FF21E6EEE34002697F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D28B0FF51E6EEE34002697F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D28B0FF71E6EEE34002697F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D28B0FFC1E6EEE34002697F3 /* MD5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MD5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28B10001E6EEE34002697F3 /* MD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Tests.m; sourceTree = "<group>"; };
-		D28B10021E6EEE34002697F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D28B10071E6EEE34002697F3 /* MD5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MD5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28B100B1E6EEE34002697F3 /* MD5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5UITests.m; sourceTree = "<group>"; };
-		D28B100D1E6EEE34002697F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D28B101A1E6EEECA002697F3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		D28B101B1E6EEECA002697F3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		D28B101E1E6F09C1002697F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -67,20 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28B0FF91E6EEE34002697F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28B10041E6EEE34002697F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				D28B0FE51E6EEE34002697F3 /* MD5 */,
-				D28B0FFF1E6EEE34002697F3 /* MD5Tests */,
-				D28B100A1E6EEE34002697F3 /* MD5UITests */,
 				D28B0FE41E6EEE34002697F3 /* Products */,
 				D28B101D1E6F09C1002697F3 /* Frameworks */,
 			);
@@ -99,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				D28B0FE31E6EEE34002697F3 /* MD5.app */,
-				D28B0FFC1E6EEE34002697F3 /* MD5Tests.xctest */,
-				D28B10071E6EEE34002697F3 /* MD5UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,24 +85,6 @@
 				D28B0FE71E6EEE34002697F3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D28B0FFF1E6EEE34002697F3 /* MD5Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D28B10001E6EEE34002697F3 /* MD5Tests.m */,
-				D28B10021E6EEE34002697F3 /* Info.plist */,
-			);
-			path = MD5Tests;
-			sourceTree = "<group>";
-		};
-		D28B100A1E6EEE34002697F3 /* MD5UITests */ = {
-			isa = PBXGroup;
-			children = (
-				D28B100B1E6EEE34002697F3 /* MD5UITests.m */,
-				D28B100D1E6EEE34002697F3 /* Info.plist */,
-			);
-			path = MD5UITests;
 			sourceTree = "<group>";
 		};
 		D28B10191E6EEEC2002697F3 /* NSStringMD5 */ = {
@@ -185,42 +124,6 @@
 			productReference = D28B0FE31E6EEE34002697F3 /* MD5.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D28B0FFB1E6EEE34002697F3 /* MD5Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D28B10131E6EEE34002697F3 /* Build configuration list for PBXNativeTarget "MD5Tests" */;
-			buildPhases = (
-				D28B0FF81E6EEE34002697F3 /* Sources */,
-				D28B0FF91E6EEE34002697F3 /* Frameworks */,
-				D28B0FFA1E6EEE34002697F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D28B0FFE1E6EEE34002697F3 /* PBXTargetDependency */,
-			);
-			name = MD5Tests;
-			productName = MD5Tests;
-			productReference = D28B0FFC1E6EEE34002697F3 /* MD5Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D28B10061E6EEE34002697F3 /* MD5UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D28B10161E6EEE34002697F3 /* Build configuration list for PBXNativeTarget "MD5UITests" */;
-			buildPhases = (
-				D28B10031E6EEE34002697F3 /* Sources */,
-				D28B10041E6EEE34002697F3 /* Frameworks */,
-				D28B10051E6EEE34002697F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D28B10091E6EEE34002697F3 /* PBXTargetDependency */,
-			);
-			name = MD5UITests;
-			productName = MD5UITests;
-			productReference = D28B10071E6EEE34002697F3 /* MD5UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,16 +136,6 @@
 					D28B0FE21E6EEE34002697F3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-					};
-					D28B0FFB1E6EEE34002697F3 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = D28B0FE21E6EEE34002697F3;
-					};
-					D28B10061E6EEE34002697F3 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = D28B0FE21E6EEE34002697F3;
 					};
 				};
 			};
@@ -260,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				D28B0FE21E6EEE34002697F3 /* MD5 */,
-				D28B0FFB1E6EEE34002697F3 /* MD5Tests */,
-				D28B10061E6EEE34002697F3 /* MD5UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,20 +165,6 @@
 				D28B0FF61E6EEE34002697F3 /* LaunchScreen.storyboard in Resources */,
 				D28B0FF31E6EEE34002697F3 /* Assets.xcassets in Resources */,
 				D28B0FF11E6EEE34002697F3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28B0FFA1E6EEE34002697F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28B10051E6EEE34002697F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,36 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28B0FF81E6EEE34002697F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28B10011E6EEE34002697F3 /* MD5Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28B10031E6EEE34002697F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28B100C1E6EEE34002697F3 /* MD5UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D28B0FFE1E6EEE34002697F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D28B0FE21E6EEE34002697F3 /* MD5 */;
-			targetProxy = D28B0FFD1E6EEE34002697F3 /* PBXContainerItemProxy */;
-		};
-		D28B10091E6EEE34002697F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D28B0FE21E6EEE34002697F3 /* MD5 */;
-			targetProxy = D28B10081E6EEE34002697F3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D28B0FEF1E6EEE34002697F3 /* Main.storyboard */ = {
@@ -470,52 +318,6 @@
 			};
 			name = Release;
 		};
-		D28B10141E6EEE34002697F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MD5Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhw.MD5Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5.app/MD5";
-			};
-			name = Debug;
-		};
-		D28B10151E6EEE34002697F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MD5Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhw.MD5Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5.app/MD5";
-			};
-			name = Release;
-		};
-		D28B10171E6EEE34002697F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MD5UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhw.MD5UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MD5;
-			};
-			name = Debug;
-		};
-		D28B10181E6EEE34002697F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MD5UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhw.MD5UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MD5;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -533,24 +335,6 @@
 			buildConfigurations = (
 				D28B10111E6EEE34002697F3 /* Debug */,
 				D28B10121E6EEE34002697F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D28B10131E6EEE34002697F3 /* Build configuration list for PBXNativeTarget "MD5Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D28B10141E6EEE34002697F3 /* Debug */,
-				D28B10151E6EEE34002697F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D28B10161E6EEE34002697F3 /* Build configuration list for PBXNativeTarget "MD5UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D28B10171E6EEE34002697F3 /* Debug */,
-				D28B10181E6EEE34002697F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
